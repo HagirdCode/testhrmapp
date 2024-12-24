@@ -43,7 +43,7 @@ public class LoginTrail {
             Select selectCountry = new Select(countryDropdown);
             // Select a country by visible text
             selectCountry.selectByVisibleText("India");
-            Thread.sleep(60000); // 60 seconds (adjust as needed)
+            Thread.sleep(6000); // 60 seconds (adjust as needed)
 
             // Locate and click the "Get Your Free Trial" button
        WebElement freeTrialButton = driver.findElement(By.id("Form_getForm_action_submitForm")); // Replace with actual ID
